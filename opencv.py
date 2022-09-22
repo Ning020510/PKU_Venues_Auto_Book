@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from PIL import Image
 from io import BytesIO
 import numpy as np
-import matplotlib.pyplot as plt
+
 
 # 抓取验证码图片的URL
 
