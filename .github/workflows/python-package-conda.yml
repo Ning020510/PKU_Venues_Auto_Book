@@ -26,7 +26,6 @@ jobs:
         pip3 install numpy
         conda install opencv
         pip3 install Pillow
-        pip3 install matplotlib
     - name: generate config.ini
       run:
         python3 actions.py -u ${{ secrets.STUDENTNUM }} -p ${{ secrets.PASSWD }}
