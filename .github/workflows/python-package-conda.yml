@@ -24,7 +24,8 @@ jobs:
       run: |
         pip3 install selenium==3.8.0
         pip3 install numpy
-        pip3 install opencv
+        conda install opencv
+        pip install opencv
         pip3 install Pillow
         pip3 install matplotlib
     - name: generate config.ini
