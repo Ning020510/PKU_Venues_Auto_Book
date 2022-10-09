@@ -23,12 +23,12 @@ def login(driver, user_name, password, retry=0):
     WebDriverWait(driver, 5).until(
         EC.visibility_of_element_located((By.ID, 'logon_button')))
 
-    driver.find_element(By.ID,"user_name").send_keys("2000012511")
+    driver.find_element(By.ID,"user_name").send_keys("20000xxxxx")
     
     WebDriverWait(driver, 10).until_not(
         EC.visibility_of_element_located((By.CLASS_NAME, "loading.ivu-spin.ivu-spin-large.ivu-spin-fix")))
     
-    driver.find_element(By.ID,"password").send_keys("ning20020510")
+    driver.find_element(By.ID,"password").send_keys("xxxxxxxxx")
     
     WebDriverWait(driver, 10).until_not(
         EC.visibility_of_element_located((By.CLASS_NAME, "loading.ivu-spin.ivu-spin-large.ivu-spin-fix")))
